@@ -6,13 +6,13 @@
  */
 
 /* Configure the Twitter API */
-var TWITTER_CONSUMER_KEY = 'sw9ObR83sTL5pthuV0iUksHP2';
-var TWITTER_CONSUMER_SECRET = 'jpqisbo6aLAA9K3ZPDOCeLCdet5aL9MPFpDVkXQhgk2gsqeVPh';
-var TWITTER_ACCESS_TOKEN = '981580668235911168-zy4q2D7fFKxCvaM2wfqKrLDqspUQ6rV';
-var TWITTER_ACCESS_TOKEN_SECRET = 'rHPpTmPAePsZB0QYEihfTAjvPMmXULlF8Ve0mi8at67V3';
+var TWITTER_CONSUMER_KEY = 'SAVIGmvq5GFbutSLDCgihFiVD';
+var TWITTER_CONSUMER_SECRET = 'NHfFaYTOeEoZ1xMExtWo30vW5yps0zKxev5ItlqI32JQQhtF1r';
+var TWITTER_ACCESS_TOKEN = '816622493351952384-BQYb4mMmXsIoLNxUc85MUlUFRbCZavP';
+var TWITTER_ACCESS_TOKEN_SECRET = 's4GphGlTZqdrtV7CSESYoDALFPbrrPqiuN14UuBpNkNpV';
 
 /* Set Twitter search phrase */
-var TWITTER_SEARCH_PHRASE = '#resistance OR #theresistance';
+var TWITTER_SEARCH_PHRASE = '#bluewave OR '#bluewave2018' OR '#bluewave18';
 
 var Twit = require('twit');
 
@@ -74,8 +74,9 @@ function BotRetweet() {
 	}
 }
 
-/* Set an interval of 30 minutes (in microsecondes) */
-setInterval(BotRetweet, 5*60*1000);
+/* Set an interval of 5 minutes (in microsecondes) */
+setInterval(BotRetweet, 5*60*1000);	
 
 /* Initiate the Bot */
 BotInit();
+																		
